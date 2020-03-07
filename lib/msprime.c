@@ -44,6 +44,7 @@
 static bool
 doubles_almost_equal(double a, double b, double eps)
 {
+    // This is a comment to see if git is working...
     return (fabs(a) < eps && fabs(b) < eps) || gsl_fcmp(a, b, eps) == 0;
 }
 
